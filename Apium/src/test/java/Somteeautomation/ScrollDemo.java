@@ -19,7 +19,7 @@ public class ScrollDemo extends baseTest{
 	{
 		driver.findElement(AppiumBy.accessibilityId("Views")).click();
 		
-		//where to scrollis known prior
+		//where to scroll is known prior
 		/* driver.findElement(AppiumBy.androidUIAutomator(
         "new UiScrollable(new UiSelector().scrollable(true))" +
         ".scrollIntoView(new UiSelector().text(\"Nike Blazer Mid '77\"))"));*/
